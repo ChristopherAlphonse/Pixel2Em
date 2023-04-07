@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/json-schema": "^7.0.11",
     "@types/node": "^18.15.5",
-    "@types/react": "18.0.28",
+    "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "@types/react-transition-group": "^4.4.5",
     "@typescript-eslint/eslint-plugin": "5.56.0",
