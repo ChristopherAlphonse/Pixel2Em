@@ -19,46 +19,63 @@ interface MetaTags {
 }
 
 const data: MetaTags = {
-  title: 'My Website',
-  description: 'This is my website',
-  keywords: ['website', 'example'],
-  author: 'John Doe',
+  title: 'Pixel2Em',
+  description:
+    "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs.",
+  keywords: [
+    'Pixel2Em',
+    'web design technique',
+    'pixels',
+    'px2em',
+    'pxtoem',
+    'pixeltoem',
+    'ems',
+    'responsive design',
+    'flexible design',
+    'optimized design',
+    'web designers',
+    'measurement unit'
+  ],
+  author: 'Christopher Alphonse',
   ogTitle: 'My Website',
-  ogDescription: 'This is my website',
+  ogDescription:
+    "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs.",
   ogType: 'website',
-  ogUrl: 'https://www.mywebsite.com',
+  ogUrl: '',
   ogSiteName: 'My Website',
-  ogImage: 'https://www.mywebsite.com/images/my-image.jpg',
+  ogImage: '',
   metaTags: [
     {
       name: 'robots',
-      content: 'index, follow',
+      content: 'index, follow'
     },
     {
       property: 'og:title',
-      content: 'My Website',
+      content: 'My Website'
     },
     {
       property: 'og:description',
-      content: 'This is my website',
+      content:
+        "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs."
     },
     {
       property: 'og:image',
-      content: 'https://www.mywebsite.com/images/my-image.jpg',
+      content: ''
     },
     {
       name: 'twitter:card',
-      content: 'summary_large_image',
+      content: 'summary_large_image'
     },
     {
       name: 'twitter:title',
-      content: 'My Website',
+      content: 'Pixel2Em'
     },
     {
       name: 'twitter:description',
-      content: 'This is my website',
-    },
-  ],
+      content:
+        "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs."
+    }
+  ]
 };
 
 export default data;

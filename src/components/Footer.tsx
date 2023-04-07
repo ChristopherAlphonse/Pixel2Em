@@ -7,17 +7,20 @@ const Footer = () => {
     <>
       <footer className="bg-white ">
         <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
-          <p className="w-auto h-7 "> Pixel2Em</p>
+          <p className="w-auto h-7 font-semibold "> Pixel2Em</p>
 
           <p className="text-sm text-gray-600 dark:text-gray-300">
             © Copyright {t}. Create By {''}
             <span className="uppercase text-sm hover:text-blue-600 cursor-pointer text-blue-900">
-              <a href="https://christopheralphonse.com">Christopher Alphonse</a>
+              <a target="_blank" href="https://christopheralphonse.com">
+                Christopher Alphonse
+              </a>
             </span>
           </p>
 
           <div className="flex -mx-2">
             <a
+              target="_blank"
               href="https://github.com/ChristopherAlphonse"
               className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
               aria-label="Github"

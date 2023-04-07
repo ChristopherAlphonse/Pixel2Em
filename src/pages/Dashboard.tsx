@@ -2,6 +2,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Footer from '../components/Footer';
 import Form from '../components/Form';
+import Navbar from '../components/Nav';
 import data from '../data';
 
 interface Meta {
@@ -51,6 +52,7 @@ const Dashboard = () => {
         ))}
       </Helmet>
       <div>
+        <Navbar />
         <Form />
         <Footer />
       </div>

@@ -62,7 +62,13 @@ function Form(): JSX.Element {
       </div>
       <div className="text-center  text-normal text-white ">
         If you have a request to add or a problem with the website's feature(s),
-        please submit it <span className="underline cursor-pointer"> here</span>
+        please submit it{' '}
+        <span className="underline cursor-pointer">
+          {' '}
+          <a href="https://github.com/ChristopherAlphonse/CssConverter/issues/new ">
+            here
+          </a>{' '}
+        </span>
         .
       </div>
       {modifiedCss && <Button css={modifiedCss} />}

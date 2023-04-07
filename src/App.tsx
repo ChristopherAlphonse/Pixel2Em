@@ -1,11 +1,12 @@
+import { Location, Route, Routes, useLocation } from 'react-router-dom';
 import React, { useEffect } from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
 
 import Dashboard from './pages/Dashboard';
+import GoogleAnalytics from './GoogleAnalytics';
 import PageNotFound from './pages/PageNotFound';
 
-function App() {
-  const location = useLocation();
+function App(): JSX.Element {
+  const location: Location = useLocation();
 
   useEffect(() => {
     document.querySelector('html')!.style.scrollBehavior = 'auto';
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+      <GoogleAnalytics />
     </>
   );
 }

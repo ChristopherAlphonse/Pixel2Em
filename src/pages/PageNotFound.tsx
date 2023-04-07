@@ -53,6 +53,14 @@ const PageNotFound = (): JSX.Element => {
         <h1 className="tracking-widest text-gray-100 uppercase text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:lg:text-9xl">
           404 | Not Found
         </h1>
+        <div className="mt-6 text-center text-black ">
+          <button
+            type="button"
+            className="px-10 py-2 bg-white hover:bg-zinc-200"
+          >
+            <a href="/"> Return </a>
+          </button>
+        </div>
       </div>
     </HelmetProvider>
   );
