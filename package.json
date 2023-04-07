@@ -11,6 +11,12 @@
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write ."
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.4",
     "@tailwindcss/forms": "^0.5.3",
@@ -42,6 +48,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "flowbite": "^1.6.4",
     "flowbite-typography": "^1.0.3",
+    "husky": "^8.0.3",
     "postcss": "8.4.21",
     "prettier": "2.8.6",
     "prettier-plugin-tailwindcss": "^0.2.4",

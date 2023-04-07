@@ -20,6 +20,7 @@ specifiers:
   flowbite: ^1.6.4
   flowbite-react: ^0.4.2
   flowbite-typography: ^1.0.3
+  husky: ^8.0.3
   moment: ^2.29.4
   postcss: 8.4.21
   prettier: 2.8.6
@@ -67,6 +68,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_ose2zoovovx4ulolhifz3tfzx4
   flowbite: 1.6.4
   flowbite-typography: 1.0.3_tailwindcss@3.2.7
+  husky: 8.0.3
   postcss: 8.4.21
   prettier: 2.8.6
   prettier-plugin-tailwindcss: 0.2.7_prettier@2.8.6
@@ -2856,6 +2858,12 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /idb/7.1.1:
     resolution: {integrity: sha512-gchesWBzyvGHRO9W8tzUWFDycow5gwjvFKfyV9FF32Y7F50yZMp7mP+T2mJIWFx49zicqyC4uefHM17o6xKIVQ==}
