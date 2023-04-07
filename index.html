@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Px to Units</title>
+  </head>
+  <body class="bg-stone-800">
+    <div id="root"></div>
+    <style>
+      html,
+      * {
+        scroll-behavior: smooth;
+      }
+      body::-webkit-scrollbar {
+        background-color: #333333;
+        width: 0.8em;
+      }
+
+      body::-webkit-scrollbar-track {
+        background-color: #191919;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: #333333;
+        border-radius: 0.9em;
+        border: 0.2em solid #191919;
+      }
+
+      body::-webkit-scrollbar-button {
+        display: none;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+    </style>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
