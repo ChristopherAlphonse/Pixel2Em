@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint --color .",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "husky": "husky install",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
