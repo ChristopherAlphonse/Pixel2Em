@@ -9,6 +9,10 @@ Pixel2em is a simple tool that converts pixel values to em values. This project 
 - TypeScript
 - Vite
 - Tailwind
+- and more...
+
+# Desktop Pre-view
+<img src="./px.png"/>
 
 ## Getting Started
 To get started with this project, clone the repository and run the following commands:
