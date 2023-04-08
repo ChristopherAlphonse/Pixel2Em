@@ -23,6 +23,7 @@ specifiers:
   flowbite-react: ^0.4.2
   flowbite-typography: ^1.0.3
   husky: ^8.0.3
+  lodash: ^4.17.21
   moment: ^2.29.4
   postcss: 8.4.21
   prettier: 2.8.6
@@ -47,6 +48,7 @@ dependencies:
   css: 3.0.0
   cssnano: 6.0.0_postcss@8.4.21
   flowbite-react: 0.4.3_y6yv6ldjfnzbw7jn6u3bdkd4l4
+  lodash: 4.17.21
   moment: 2.29.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
