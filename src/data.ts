@@ -37,13 +37,13 @@ const data: MetaTags = {
     'measurement unit'
   ],
   author: 'Christopher Alphonse',
-  ogTitle: 'My Website',
+  ogTitle: 'Pixel2Em',
   ogDescription:
     "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs.",
   ogType: 'website',
   ogUrl: '',
-  ogSiteName: 'My Website',
-  ogImage: '',
+  ogSiteName: 'Pixel2Em',
+  ogImage: '/src/assets/icon.png',
   metaTags: [
     {
       name: 'robots',
@@ -51,7 +51,7 @@ const data: MetaTags = {
     },
     {
       property: 'og:title',
-      content: 'My Website'
+      content: 'Pixel2Em'
     },
     {
       property: 'og:description',
@@ -60,7 +60,7 @@ const data: MetaTags = {
     },
     {
       property: 'og:image',
-      content: ''
+      content: '/src/assets/icon.png'
     },
     {
       name: 'twitter:card',
