@@ -30,7 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Px to Units</title>
   </head>
-  <body class="bg-stone-800">
+  <body>
     <div id="root"></div>
     <style>
       html,
@@ -58,7 +58,10 @@
 
       html,
       body {
+        overflow-x: hidden;
         height: 100%;
+        --tw-bg-opacity: 1;
+        background-color: rgb(41 37 36 / var(--tw-bg-opacity));
       }
     </style>
     <script type="module" src="./src/main.tsx"></script>

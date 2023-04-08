@@ -23,15 +23,15 @@ function Form(): JSX.Element {
   return (
     <div className="p-4 h-screen">
       <Navbar />
-      <h1 className="text-primary font-bold uppercase text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:lg:text-9xl mb-9">
+      <h1 className="text-[#f5f5f4] text-lg font-bold uppercase sm:text-3xl md:text-5xl lg:text-7xl xl:lg:text-9xl mb-9 ">
         CSS Unit Converter
       </h1>
-      <div className="flex mb-20">
-        <label htmlFor="cssFile" className="mr-4 text-primary">
+      <div className=" mb-20 block md:flex ">
+        <label htmlFor="cssFile" className="mr-4 text-primary ">
           Upload CSS file:
         </label>
         <input
-          className="text-primary"
+          className="text-primary "
           type="file"
           id="cssFile"
           accept=".css"
