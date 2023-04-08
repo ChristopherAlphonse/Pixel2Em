@@ -1,4 +1,6 @@
 import Button from './Button';
+import Footer from './Footer';
+import Navbar from './Nav';
 import converter from './Converter';
 import { useState } from 'react';
 
@@ -20,6 +22,7 @@ function Form(): JSX.Element {
 
   return (
     <div className="p-4 h-screen">
+      <Navbar />
       <h1 className="text-primary font-bold uppercase text-xl sm:text-3xl md:text-5xl lg:text-7xl xl:lg:text-9xl mb-9">
         CSS Unit Converter
       </h1>
@@ -72,6 +75,7 @@ function Form(): JSX.Element {
         .
       </div>
       {modifiedCss && <Button css={modifiedCss} />}
+      <Footer />
     </div>
   );
 }

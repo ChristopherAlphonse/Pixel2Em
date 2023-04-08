@@ -5,7 +5,11 @@ const Footer = () => {
   let t = date.getFullYear();
   return (
     <>
-      <footer className="bg-white ">
+      <footer
+        className="flex flex-col items-center justify-between bg-tertiary  p-1 text-primary
+      sm:flex-row md:h-[10vh] mt-20 max-w-full
+       "
+      >
         <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
           <p className="w-auto h-7 font-semibold "> Pixel2Em</p>
 

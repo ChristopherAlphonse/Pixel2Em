@@ -51,11 +51,8 @@ const Dashboard = () => {
           <meta key={tag.name} name={tag.name} content={tag.content} />
         ))}
       </Helmet>
-      <div>
-        <Navbar />
-        <Form />
-        <Footer />
-      </div>
+
+      <Form />
     </HelmetProvider>
   );
 };
