@@ -37,7 +37,7 @@ const PageNotFound = (): JSX.Element => {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>{title}</title>
+        <title>{title} | 404</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords.join(',')} />
         <meta property="og:title" content={ogTitle} />

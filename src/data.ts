@@ -41,7 +41,7 @@ const data: MetaTags = {
   ogDescription:
     "Pixel2Em is a web design technique that uses pixels as the base measurement unit for defining font sizes and layout elements. By converting pixel values to ems, the design becomes more responsive and works well across different devices and screen sizes. It's a popular technique among web designers for creating flexible and optimized designs.",
   ogType: 'website',
-  ogUrl: '',
+  ogUrl: 'https://css-converter.vercel.app/',
   ogSiteName: 'Pixel2Em',
   ogImage: '/src/assets/icon.png',
   metaTags: [
