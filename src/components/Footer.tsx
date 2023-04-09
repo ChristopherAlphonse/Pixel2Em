@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
   const date = new Date();
   let t = date.getFullYear();
@@ -7,7 +5,7 @@ const Footer = () => {
     <>
       <footer
         className="flex flex-col items-center justify-between bg-tertiary  p-1 text-primary
-      sm:flex-row md:h-[10vh] mt-20 max-w-full
+      sm:flex-row md:h-[10vh]  max-w-full pt-[33rem]
        "
       >
         <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">

@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [
-    react({ tsDecorators: true }),
+    react(),
     VitePWA({
       manifest: {
         name: 'Pixel2Em',
