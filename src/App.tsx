@@ -2,7 +2,6 @@ import { Location, Route, Routes, useLocation } from 'react-router-dom';
 import React, { useEffect } from 'react';
 
 import Dashboard from './pages/Dashboard';
-import GoogleAnalytics from './GoogleAnalytics';
 import PageNotFound from './pages/PageNotFound';
 
 function App(): JSX.Element {
@@ -20,7 +19,7 @@ function App(): JSX.Element {
         <Route path="/" element={<Dashboard />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <GoogleAnalytics />
+      
     </>
   );
 }
